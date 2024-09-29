@@ -1,0 +1,869 @@
+@charset "utf-8";
+/*ここからがindex.html*/
+.wrapper{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.wrapper h1{
+    font-size: 4em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h2,.explore h2,.excellence h2{
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.main-sentence h2{
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h3,.explore h3{
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper p{
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h4,.giraffa-icon h4,.explore h4{
+    font-size: 0.8em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h5{
+    font-size: 0.8em;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h6{
+    font-size: 0.5em;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+
+.container{
+    max-width: unset;
+}
+
+.main-img{
+    background-image: url(images/main-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+}
+
+.header h1{
+    font-size: 3em;
+}
+
+.white{
+    color: #fafafa !important;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.bg-white{
+    background-color: #fafafa;
+}
+
+.big-padding{
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.gray{
+    color: #9e9e9e !important;
+}
+
+.chair{
+    background-image: url(images/chair.jpg);
+}
+
+.light,.blog-light{
+    background-image: url(images/light.jpg);
+}
+
+.light,.chair{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+a.discover{
+    border: #9e9e9e 1px solid;
+}
+
+a.discover:hover{
+    border: #212121 1px solid;
+}
+
+.giraffa,.giraffa-main,.products-giraffa{
+    background-image: url(images/giraffa.jpeg);
+}
+
+.solis,.giraffa-solis,.products-solis{
+    background-image: url(images/solis.jpeg);
+}
+
+.corner,.giraffa-corner,.products-corner{
+    background-image: url(images/corner.jpeg);
+}
+
+.cielo,.giraffa-cielo,.products-cielo{
+    background-image: url(images/cielo.jpeg);
+}
+
+.uma,.products-uma{
+    background-image: url(images/uma.jpg);
+}
+
+.contour,.products-contour{
+    background-image: url(images/contour.jpg);
+}
+
+.circa{
+    background-image: url(images/circa.jpg);
+}
+
+.bola{
+    background-image: url(images/bola.jpg);
+}
+
+.bola-disc,.products-bola-disc{
+    background-image: url(images/bola-disc.jpg);
+}
+
+.belmont,.about-belmont,.products-belmont{
+    background-image: url(images/belmont.jpg);
+}
+
+.bel,.about-bel,.products-bel{
+    background-image: url(images/bel.jpg);
+}
+
+.bola-halo,.products-bola-halo{
+    background-image: url(images/bola-halo.jpg);
+}
+
+.giraffa,.solis,.corner,.cielo,.uma,.contour,.circa,.bola,.bola-disc,.belmont,.bel,.bola-halo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+    margin-bottom: 1em;
+}
+
+.merchandise a{
+    display: block;
+}
+
+.merchandise a{
+    color: #212121;
+    text-decoration: none;
+}
+
+.merchandise a:hover{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.bg-black{
+    background-color: #212121;
+}
+
+.light-big,.blog-light-big{
+    background-image: url(images/light-big.jpg);
+}
+
+.light-big{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+}
+
+.say{
+    border: #9e9e9e 1px solid;
+}
+
+.say-img{
+    background-image: url(images/say-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27em;
+}
+
+.genius,.about-genius,.blog-main,.blog-genius{
+    background-image: url(images/genius.jpg);
+}
+
+.best{
+    background-image: url(images/best.jpg);
+}
+
+.table{
+    background-image: url(images/table.jpg);
+}
+
+.genius,.best,.table{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+}
+
+.articles a{
+    color: #212121;
+    text-decoration: none;
+}
+
+.articles a:hover{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.lightbox-container a{
+     display: block;
+     width: 100% !important;
+     height: 10em;
+}
+
+.image-1,.social-image-1,.contact-image-1{
+    background-image: url(images/image-1.jpeg);
+}
+
+.image-2,.social-image-2{
+    background-image: url(images/image-2.jpg);
+}
+
+.image-3,.social-image-3{
+    background-image: url(images/image-3.jpg);
+}
+
+.image-4,.social-image-4{
+    background-image: url(images/image-4.jpg);
+}
+
+.image-5,.social-image-5{
+    background-image: url(images/image-5.jpg);
+}
+
+.image-6,.social-image-6{
+    background-image: url(images/image-6.jpg);
+}
+
+.image-1,.image-2,.image-3,.image-4,.image-5,.image-6{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-gray{
+    border-top: #9e9e9e 1px solid;
+}
+
+.list a,.footer a{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.list a:hover,.footer a:hover{
+    color: #212121;
+    text-decoration: none;
+}
+
+.list a.special{
+    color: #212121;
+    text-decoration: none;
+}
+
+.list a.special:hover{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.genius,.best,.table,.bola-disc,.bola-halo{
+    position: relative;
+}
+
+.left-button{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+}
+
+.uma,.circa{
+    position: relative;
+}
+
+.right-button{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.navbar{
+    background-color: #fafafa !important;
+}
+
+.navbar a{
+    font-size: 0.8em;
+}
+
+.shop{
+    width: calc(100% - 2em);
+}
+/*ここまでがindex.html*/
+/*ここからがabout.html*/
+.about-belmont,.about-genius{
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 20em;
+}
+
+.bel-occhio{
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    padding-top: 0em;
+    padding-bottom: 5em;
+}
+
+.about-stand,.blog-about-stand{
+    background-image: url(images/about-stand.jpg);
+}
+
+.about-stand{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+    margin-top: 5em;
+    display: none;
+}
+
+.calvin{
+    background-image: url(images/calvin.jpg);
+}
+
+.ellen{
+    background-image: url(images/ellen.jpg);
+}
+
+.ivan{
+    background-image: url(images/ivan.jpg);
+}
+
+.daisy{
+    background-image: url(images/daisy.jpg);
+}
+
+.elmar{
+    background-image: url(images/elmer.jpg);
+}
+
+.ronnie{
+    background-image: url(images/ronnie.jpg);
+}
+
+.bettie{
+    background-image: url(images/bettie.jpg);
+}
+
+.francis{
+    background-image: url(images/francis.jpg);
+}
+
+.calvin,.ellen,.ivan,.daisy,.elmar,.ronnie,.bettie,.francis{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8em;
+    height: 8em;
+}
+
+.about-bel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22em;
+    height: 22em;
+}
+
+.brown-bar{
+    background-color: #795548;
+    height: 0.5em;
+    width: 2em;
+}
+/*ここまでabout-html*/
+/*ここからgiraffa.html*/
+.giraffa-icon{
+    border: #212121 solid 1px;
+    width: 30%;
+}
+
+.input-number{
+    border: none;
+    background-color: #9e9e9e;
+    height: 3em;
+    width: 100%;
+}
+
+.input-number:hover{
+    border: none;
+}
+
+.giraffa-main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.light-top{
+    background-image: url(images/light-top.jpeg);
+}
+
+.light-middle{
+    background-image: url(images/light-middle.jpeg);
+}
+
+.light-bottom{
+    background-image: url(images/light-bottom.jpeg);
+}
+
+.light-top,.light-middle,.light-bottom{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.giraffa-main{
+    display: block;
+    width: 100%;
+    height: 50em;
+}
+
+.light-three a{
+    display: block;
+    height: 5em;
+    width: 5em;
+}
+
+.upstairs,.products-upstairs,.social-upstairs{
+    background-image: url(images/upstairs.jpeg);
+}
+
+.upstairs{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+.part{
+    width: 60% !important;
+}
+
+.giraffa-solis,.giraffa-corner,.giraffa-cielo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+.explore a{
+    display: block;
+    color: #212121;
+    text-decoration: none;
+}
+
+.explore a:hover{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+/*ここまでがgiraffa.html*/
+/*ここからがproducts.html*/
+.products-main{
+    background-image: url(images/products-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+.products-main-sentence{
+    padding-top: 5em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sidebar-top{
+    display: none;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #212121;
+}
+
+.sidebar a:hover{
+    text-decoration: none;
+    color: #9e9e9e;
+}
+
+.products-kitchen{
+    background-image: url(images/products-kitchen.jpg);
+}
+
+.products-upstairs,.products-bel,.products-kitchen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    position: relative;
+}
+
+.products a{
+    display: block;
+    color: #212121;
+    text-decoration: none;
+}
+
+.products a:hover{
+    color: #9e9e9e;
+}
+
+.products-uma{
+    position: relative;
+}
+
+.products-giraffa,.products-solis,.products-corner,.products-cielo,.products-uma,.products-contour,.products-bola-disc,.products-belmont,.products-bel,.products-bola-halo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+}
+
+.social a{
+    display: block;
+    height: 15em;
+}
+
+.social-image-1,.social-image-2,.social-image-3,.social-image-4,.social-image-5,.social-image-6{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+/*ここまでがproducts.html*/
+/*ここからcontact.html*/
+.contact-image-1{
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 30em;
+}
+
+.contact input[type="name"],.contact input[type="email"],.contact textarea[type="context"]{
+    background-color: #f5f5f5;
+    border: 0px !important;
+}
+
+.contact input{
+    height: 3em;
+}
+
+.contact-brown-bar{
+    background-color: #795548;
+    height: 0.5em;
+    width: 4em;
+}
+
+a.submit:hover{
+    filter: contrast(50%);
+}
+
+.modern{
+    font-size: 2em !important;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #212121;
+}
+/*ここまでcontact.html*/
+/*ここからblog.html*/
+.blog-main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    position: relative;
+}
+
+.story{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+}
+
+.blog-icon{
+    border: #212121 1px solid;
+    width: 50%;
+}
+
+a.blog-title{
+    font-size: 2em !important;
+    line-height: 1.5;
+    color: #212121;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.blog-title:hover{
+    color: #9e9e9e;
+}
+
+.blog-genius,.blog-light,.blog-about-stand,.blog-light-big{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+    position: relative;
+}
+
+.blog-contents a{
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.blog-contents a:hover{
+    color: #9e9e9e;
+}
+
+.contact input[type="number"]{
+    background-color: #f5f5f5;
+    border: 0px !important;
+}
+
+
+@media(min-width:576px){
+    .big-padding{
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .w-md-25{
+        width: 25%;
+    }
+
+    .bg-gray{
+        background-color: #eeeeee;
+    }
+
+    .special-padding{
+        padding-left: 0em;
+        padding-right: 5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .w-md-20{
+        width: 20% !important;
+    }
+
+    .contents{
+        width: 60%;
+    }
+
+    .bg-say{
+        position: relative;
+        height: 35em;
+    }
+
+    .say-img{
+        position: absolute;
+        right:10%;
+        top: 0%;
+        width: 60%;
+        z-index: 2;
+        height: 30em;
+    }
+
+    .contents{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        z-index: 3;
+    }
+
+    .footer{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    .header h1{
+        font-size: 4em;
+    }
+
+    .image-1,.image-2,.image-3,.image-4,.image-5,.image-6{
+        width: 100%;
+    }
+
+    .w-md-50{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .about-stand{
+        display: block;
+    }
+
+    .bel-occhio-left{
+        position: relative;
+    }
+
+    .bel-occhio-left .sentence h2{
+        display: inline-block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 2;
+        width: 75%;
+    }
+
+    .about-bel{
+        position: absolute;
+        right: 5%;
+        top: 8em;
+        z-index: 1;
+    }
+
+    .bel-occhio{
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+        padding-top: 0em;
+        padding-bottom: 5em;
+    }
+
+    .bel-occhio-left{
+         height: 30em;
+    }
+
+    .bel-occhio-left .sentence{
+        display: inline-block;
+        height: 100%;
+        height: 20em;
+    }
+
+    .w-md-80{
+        width: 80%;
+    }
+
+    .light-three a{
+        width: 8em;
+        height: 8em;
+    }
+
+    .lb-nav a.lb-prev{
+        position: absolute;
+        left: -15em;
+        opacity: 1;
+    }
+
+    .lb-nav a.lb-next{
+        position: absolute;
+        right: -15em;
+        opacity: 1;
+    }
+
+    .main-sentence{
+        padding-right: 5em;
+    }
+
+    .part{
+        width: 40% !important;
+    }
+
+    .sidebar-top{
+        display: block;
+    }
+
+    .socila-image-1,.social-image-2,.social-image-3,.social-image-4,.social-image-5,.social-image-6{
+        width: 100%;
+    }
+
+    .sidebar{
+        position: sticky;
+        top: 100px;
+    }
+    
+    .w-md-30{
+        width: 30%;
+    }
+
+    .w-md-45{
+        width: 45%;
+    }
+
+    .modern{
+        font-size: 3em !important;
+    }
+    
+    a.blog-title{
+        font-size: 2.5em !important;
+    }
+
+    .story{
+        width: 70%;
+    }
+
+    .w-md-60{
+        width: 60%;
+    }
+
+    .blog-icon{
+        width: 35%;
+    }
+
+    .blog-padding{
+        padding-top: 40%;
+    }
+}
