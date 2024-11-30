@@ -1,0 +1,26 @@
+htmlファイルにに関して
+about.html
+blog.html
+contact.html
+giraffa.html
+index.html
+products.html
+の6つのファイルで構成されています。
+6つのhtmlファイルに対応するcssファイルに関しては
+reset.css
+style.css
+で共通のcssファイルとして対応しています。
+luma-templateというサイトを再現しました。
+この6つのhtmlファイルは互いにリンクしあっています。
+ヘッダー部分の「『HOME』、『OUR PRODUCTS』、『ABOUT』、『CONTACT』『BLOG』」をクリックすることで
+「『index.html』、『products.html』、『about.html』、『contact.html』、『blog.html』」にリンクするようにしております。
+※「giraffa.html」に関して
+『index.html』の中盤に「Stylish modern lighting options」という箇所ができきます。そこで「Giraffa」という画像をクリックすると
+「giraffa.html」にアクセスできます。なお、「giraffa.html」のヘッダーから他の5津の際と同じように別のサイトにリンクできるようにしております。
+※lightboxに利用
+「index.html」、「products.html」の各々のサイトのフッターの真上の「Free shipping」という文字が出てきますが
+その上の一連の6つの画像がでてきますがlightboxが実装できるようにしております。
+「giraffa.html」の「giraffa」という文字の横の画像をクリックするとlightboxが実装できるようにしております。
+上記の4つのhtmlファイルはレスポンシブになっており、スマホサイズとパソコンサイズで各々違ったデザインにしました。
+「images」ファルダの中の画像は見本となった「luma-template」というサイトを利用しました。
+利用した画像が多いため、立ち上がるのに時間がかかる恐れがございます。
